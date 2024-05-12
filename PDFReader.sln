@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFReader", "PDFReader\PDFReader.csproj", "{D0DD55F5-F4F6-4DB2-BD59-BFBE41983924}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DD55F5-F4F6-4DB2-BD59-BFBE41983924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DD55F5-F4F6-4DB2-BD59-BFBE41983924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DD55F5-F4F6-4DB2-BD59-BFBE41983924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DD55F5-F4F6-4DB2-BD59-BFBE41983924}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40D360E0-7DC2-4A3B-A352-C8D05C5DB308}
+	EndGlobalSection
+EndGlobal
