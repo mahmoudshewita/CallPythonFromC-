@@ -1,6 +1,5 @@
 ﻿using Python.Runtime;
 
-
 Runtime.PythonDLL = @"C:\Python312\python312.dll";
 PythonEngine.Initialize();
 using (Py.GIL())
@@ -14,7 +13,8 @@ using (Py.GIL())
 
     // call pthon function with parameter
     var PDFfilePath_PyFunctionParameter = new PyString("test.pdf");
-    var PDFTextResult = pyScript.InvokeMethod("extractTextFromPDF", new PyObject[] { PDFfilePath_PyFunctionParameter });
+    var PDFTextResult = pyScript.InvokeMethod("extractTextFromPDF", 
+                        new PyObject[] { PDFfilePath_PyFunctionParameter });
     Console.Write(PDFTextResult);
 
 }
